@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans');
+
+body { text-align:center; }
+
+#numbers {
+  font-size:2em;
+  font-family:'Fjalla One', sans-serif;
+  color:#FFF;
+  background-color:#20cff3;
+  width:60px;
+  height:60px;
+  line-height:60px;
+  border-radius:100%;
+  margin:10px auto;
+}
+
+.btn {
+  clear:both;
+  display:block;
+  margin: 0 auto;
+  font-size:1.24em;
+  padding:10px 30px;
+  border:0;
+  outline:0;
+  color:#fff;
+  background:#338800;
+  border-radius:16px; 
+  cursor:pointer;
+ transition: all .3s;
+}
+.btn:hover { background:#58ad25; }
+.evenNum,.oddNum  { 
+  font-family:'Josefin Sans', sans-serif; 
+  font-size:1.24em;
+  margin:6px auto;
+  color:#666; display:inline-block;
+  width:120px;
+}
+.evenNum span,.oddNum span { font-size:1.64em;}
+.evenNum span {
+  color: #3366ff;
+}
+.oddNum span {
+  color: #ff6633;
+}
