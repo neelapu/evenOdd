@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans');
 
-body { text-align:center; }
+body { text-align:center; padding: 12px; }
 
 #numbers {
   font-size:2em;
